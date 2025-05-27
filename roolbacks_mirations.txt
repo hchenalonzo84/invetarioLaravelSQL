@@ -1,0 +1,4 @@
+php artisan migrate   // crea la tablas nuevamente en sql
+php artisan migrate --path=database/migrations/2025_05_26_032232_create_roles_table.php  // crea una tabla especificamente
+php artisan migrate
+php artisan db:seed    // esto crea de nuevo la insercion de datos predeterminados
